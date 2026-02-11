@@ -1,0 +1,11 @@
+name: GemSync
+version: 1.0.0
+main: sh.pcx.gemsync.GemSync
+api-version: '1.20'
+description: Syncs TNE Gem currency with LPC Pro Chat Shop
+author: PCXNetwork
+
+softdepend:
+  - TheNewEconomy
+  - LPC-Pro
+  - PlaceholderAPI

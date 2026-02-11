@@ -1,0 +1,18 @@
+# GemSync Configuration
+# Syncs TNE currency with LPC Pro Chat Shop
+
+# The TNE currency identifier to track (must match your TNE currency config)
+tne-currency: "Gems"
+
+# LPC Pro commands used to sync balances
+# These are run as console commands
+chatshop-give-command: "chatshop give"
+chatshop-take-command: "chatshop take"
+
+# Sync the player's TNE gem balance to LPC Pro when they join
+# Requires PlaceholderAPI to be installed
+# This ensures balances stay in sync even if gems were given while offline
+sync-on-join: true
+
+# Enable debug logging for troubleshooting
+debug: false
